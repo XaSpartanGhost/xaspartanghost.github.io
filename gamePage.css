@@ -150,8 +150,9 @@ footer {
 .card {
 	background-color: rgba(0, 0, 0, 0.8);
 	padding: 20px;
-	margin-top: 20px;
+	margin-top: 10px;
 	text-align: left;
+	border-radius: 10px;
 }
 
 /* Clear floats after the columns */

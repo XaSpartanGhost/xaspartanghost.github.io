@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Gatopompas</title>
+	<link rel="stylesheet" href="gamePage.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body style="background-image: url('images/GP/background.png');">
+	<header>
+		<ul class="nav">
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<div class="dropdown">
+					<a href="portfolio.html">Portfolio</a>
+					<div class="dropdown-content">
+						<a href="roninhoodsisters.html">Ronin-Hood Sisters</a>
+						<a href="zerostealth.html">Zero Stealth</a>
+						<a href="polaris.html">POLARIS: A New Home</a>
+						<a href="gatopompas.html" class="active">Gatopompas</a>
+						<a href="agoraphobia.html">Agoraphobia</a>
+						<a href="fabricia.html">Fabricia in Wonder-Disco</a>
+						<a href="rainfall.html">Rainfall</a>
+					</div>
+				</div> 
+			</li>
+			<li>
+				<a href="portfolio.html">Resumee</a>
+			</li>
+			<li>
+				<a href="contact.html">Contact</a>
+			</li>
+		</ul>
+
+	</header>
+    <div class="content">
+		<h1>Gatopompas</h1><i class="fa-brands fa-itch-io"></i>
+		<!-- Container for the image gallery -->
+		<div class="galleryContainer">
+
+		  <!-- Full-width images with number text -->
+		  <div class="mySlides">
+			<div class="numbertext">1 / 5</div>
+			  <img src="images/GP/background.png" style="width:100%">
+		  </div>
+
+		  <div class="mySlides">
+			<div class="numbertext">2 / 5</div>
+			  <img src="images/GP/bounce.png" style="width:100%">
+		  </div>
+
+		  <div class="mySlides">
+			<div class="numbertext">3 / 5</div>
+			  <img src="images/GP/checkpoint.png" style="width:100%">
+		  </div>
+
+		  <div class="mySlides">
+			<div class="numbertext">4 / 5</div>
+			  <img src="images/GP/fan.png" style="width:100%">
+		  </div>
+
+		  <div class="mySlides">
+			<div class="numbertext">5 / 5</div>
+			  <img src="images/GP/windbubble.png" style="width:100%">
+		  </div>
+
+		  <!-- Next and previous buttons -->
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		  <!-- Image text -->
+		  <div class="caption-container">
+			<p id="caption"></p>
+		  </div>
+
+		  <!-- Thumbnail images -->
+		  <div class="rowThumbnail">
+			<div class="columnThumbnail" style="width: 20%">
+			  <img class="demo cursor" src="images/GP/background.png" style="width:100%" onclick="currentSlide(1)" alt="Gatopompas">
+			</div>
+			<div class="columnThumbnail" style="width: 20%">
+			  <img class="demo cursor" src="images/GP/bounce.png" style="width:100%" onclick="currentSlide(2)" alt="Pompas using bubbles to bounce and reach farther">
+			</div>
+			<div class="columnThumbnail" style="width: 20%">
+			  <img class="demo cursor" src="images/GP/checkpoint.png" style="width:100%" onclick="currentSlide(3)" alt="Pompas after reaching a checkpoint">
+			</div>
+			<div class="columnThumbnail" style="width: 20%">
+			  <img class="demo cursor" src="images/GP/fan.png" style="width:100%" onclick="currentSlide(4)" alt="Pompas using a fan to propel the bubble">
+			</div>
+			<div class="columnThumbnail" style="width: 20%">
+			  <img class="demo cursor" src="images/GP/windbubble.png" style="width:100%" onclick="currentSlide(5)" alt="Pompas getting impulsed by a fan to reach a far place">
+			</div>
+		  </div>
+		</div>
+		<div class="row">
+		  <div class="leftcolumn">
+			<div class="card">
+			  <h4>Platform:</h4>
+			  <p>PC</p>
+			  <h4>Tools:</h4>
+			  <p>Godot, Notion, Trello, Photoshop...</p>
+			  <h4>Team Size:</h4>
+			  <p>4</p>
+			  <h4>Role:</h4>
+			  <p>Game Designer</p>
+			</div>
+		  </div>
+		  <div class="rightcolumn">
+			<div class="card">
+			  <h2>Overview</h2>
+			  <p><strong>Gatopompas</strong> 2D platformer made as part of the Global Game Jam 2025. It was made by a 
+			  small team of a game designer, a programmer, an artist and a musician over the course of 48 hours. The theme 
+			  of the Jam was "Bubbles", so we decided to make the main mechanic revolve about the cat getting inside bubbles 
+			  to reach places he couldn't otherwise. Currently we are working on polishing and expanding the game.</p>
+			  <p>Some of my responsabilities:</p>
+			  <ul>
+				<li>Define the mechanics of the player.</li>
+				<li>Level design.</li>
+				<li>Bubble behavior, spawners and ratio.</li>
+				<li>Designed and implemented air fans and how they affect the player if they are or not in a bubble.</li>
+				<li>Localization in 3 languages.</li>
+				<li>Wind VFX.</li>
+				<li>Aditional programming and art.</li>
+			  </ul>
+			  <h2>Game Synopsis</h2>
+			  <p>Pompas is a little cat that is sleeping in the living room. He loves playing with bubbles, so, in his dreams he has to avoid
+			  all kind of obstacles, going inside the bubbles and using their unique physics. Pompas doesn't like the origami figures that his 
+			  human make, so in his dreams they will appear to prevent him from reaching the end of this dreamlike path.</p>
+			  <p>Despite the cute visual style and the simple story, this game offers a harder experience than probably you would expect.</p>
+			  <h3>Game Features<h3>
+			  <h4>Progress through the dream</h4>
+			  <p>Pompas is dreaming, and while some elements are familiar and safe (like the cardboxes), others aren't.</p>
+			  <h4>Evade the Origami</h4>
+			  <p>Those things look pointy, and hold even pointy objects (like knifes). Use the bubbles to cross safely without touching them. 
+			  But be careful, they will break the bubble too!</p>
+			  <h4>Use physics to your advantage</h4>
+			  <p>You can slide slower on the walls, but you can't jump very far. Jump to bubbles, between bubbles or outside them. Make them collide 
+			  with other bubbles to allow them to stand a hit to a wall without breaking. Use the wind fans to give them impulse and push them from the 
+			  inside to make them slow or speed up!
+			  <h3>Play on <a href="https://devmo-io.itch.io/gatopompas-tm">Itch.io</a></h3>
+			</div>
+		  </div>
+		</div>
+	</div>
+	<footer>
+		<div>
+			<a href="https://www.linkedin.com/in/xabier-villanueva-loureiro-821624225" class="fa fa-linkedin"></a>
+			<a href="https://www.instagram.com/xaspartan_ghost/" class="fa fa-instagram"></a>
+		</div>
+		<div>
+			<p>&copy; 2025 Xabier Villanueva Loureiro</p>
+		</div>
+	</footer>
+	
+	<script>
+		let slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  let i;
+		  let slides = document.getElementsByClassName("mySlides");
+		  let dots = document.getElementsByClassName("demo");
+		  let captionText = document.getElementById("caption");
+		  if (n > slides.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";
+		  dots[slideIndex-1].className += " active";
+		  captionText.innerHTML = dots[slideIndex-1].alt;
+		}
+	</script>
+  </body>
+</html>
